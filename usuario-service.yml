@@ -3,9 +3,10 @@ server:
 
 eureka:
   client:
-    register-with-eureka: true
-    service-url:
-      defaultZone: http://localhost:8850/eureka/
+    register-with-eureka:    true
+    #fetch-registry: false
+    serviceurl:
+      defaultZone: http://localhost:8761/eureka/
 
 message: "Configuracion del usuario en el servidor levantado!"
 
